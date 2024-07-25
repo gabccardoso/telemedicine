@@ -5,6 +5,7 @@ import com.hackaton.telemedicine.entities.Prontuario;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
+import java.util.List;
 
 public class ProntuarioInteractor {
 
@@ -20,5 +21,9 @@ public class ProntuarioInteractor {
 
     public void uploadArquivo (Long prontuarioId, MultipartFile file) throws IOException {
         prontuarioGateway.uploadArquivo(prontuarioId, file);
+    }
+
+    public void compartilhaArquivos(List<Long> documentosId, int tempoExpira, String emailDestinatario, Long prontuarioId){
+        prontuarioGateway.compartilhaArquivos(documentosId, tempoExpira, emailDestinatario, prontuarioId);
     }
 }
