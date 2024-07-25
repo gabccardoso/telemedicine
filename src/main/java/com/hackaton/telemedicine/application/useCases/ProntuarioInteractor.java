@@ -14,11 +14,11 @@ public class ProntuarioInteractor {
         this.prontuarioGateway = prontuarioGateway;
     }
 
-    Prontuario obterProntuario (Long pacienteId){
+    public Prontuario obterProntuario (Long pacienteId){
         return prontuarioGateway.obterProntuario(pacienteId);
     }
 
-    void uploadArquivo (Long prontuarioId, MultipartFile file) throws IOException {
+    public void uploadArquivo (Long prontuarioId, MultipartFile file) throws IOException {
         prontuarioGateway.uploadArquivo(prontuarioId, file);
     }
 }

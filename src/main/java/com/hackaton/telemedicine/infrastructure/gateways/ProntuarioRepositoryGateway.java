@@ -1,7 +1,6 @@
 package com.hackaton.telemedicine.infrastructure.gateways;
 
 import com.hackaton.telemedicine.application.gateways.ProntuarioGateway;
-import com.hackaton.telemedicine.entities.ArquivosProntuario;
 import com.hackaton.telemedicine.entities.Prontuario;
 import com.hackaton.telemedicine.infrastructure.gateways.utils.S3Utils;
 import com.hackaton.telemedicine.infrastructure.persistence.ArquivosProntuarioEntity;
