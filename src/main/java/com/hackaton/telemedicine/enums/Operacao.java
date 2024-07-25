@@ -1,4 +1,4 @@
-package com.hackaton.telemedicine.Enums;
+package com.hackaton.telemedicine.enums;
 
 public enum Operacao {
     CRIAR,

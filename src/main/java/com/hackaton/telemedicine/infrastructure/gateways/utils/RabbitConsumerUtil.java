@@ -4,7 +4,7 @@ package com.hackaton.telemedicine.infrastructure.gateways.utils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hackaton.telemedicine.Enums.Operacao;
+import com.hackaton.telemedicine.enums.Operacao;
 import com.hackaton.telemedicine.application.gateways.MedicoGateway;
 import com.hackaton.telemedicine.application.gateways.PacienteGateway;
 import com.hackaton.telemedicine.entities.Medico;

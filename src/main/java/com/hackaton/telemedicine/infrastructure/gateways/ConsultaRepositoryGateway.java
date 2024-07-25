@@ -1,6 +1,6 @@
 package com.hackaton.telemedicine.infrastructure.gateways;
 
-import com.hackaton.telemedicine.Enums.StatusAgendamento;
+import com.hackaton.telemedicine.enums.StatusAgendamento;
 import com.hackaton.telemedicine.application.gateways.ConsultaGateway;
 import com.hackaton.telemedicine.entities.Consulta;
 import com.hackaton.telemedicine.infrastructure.controllers.dto.ConsultaPendenteDTO;

@@ -29,7 +29,7 @@ public class ConsultaInteractor {
     public List<ConsultaPendenteDTO> buscaPendentes(String crm){
         return consultaGateway.buscaPendentes(crm);
     }
-    public void alteraStatusConsulta(Long idConsulta, Boolean consultaAprovada){
+    public void alteraStatusConsulta(Long idConsulta, Boolean consultaAprovada) throws Exception {
         consultaGateway.alteraStatusConsulta(idConsulta, consultaAprovada);
     }
 }

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping
+@RequestMapping(value = "/disponibilidade")
 public class DisponibilidadeController {
 
     private final DisponibilidadeInteractor disponibilidadeInteractor;

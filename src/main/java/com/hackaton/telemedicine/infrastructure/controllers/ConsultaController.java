@@ -30,7 +30,7 @@ public class ConsultaController {
     }
 
     @PutMapping(value = "/aceitar/{id}")
-    public ResponseEntity<Void> editaConsulta(@RequestParam Boolean aceitarConsulta, @PathVariable Long id){
+    public ResponseEntity<Void> editaConsulta(@RequestParam Boolean aceitarConsulta, @PathVariable Long id) throws Exception {
         consultaInteractor.alteraStatusConsulta(id, aceitarConsulta);
         return ResponseEntity.status(HttpStatus.OK).build();
     }

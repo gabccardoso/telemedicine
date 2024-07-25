@@ -1,6 +1,6 @@
 package com.hackaton.telemedicine.entities;
 
-import java.util.Date;
+import java.util.List;
 
-public record Prontuario(Paciente paciente, String descricao, String dadosDocumentos, Date dataCriacao) {
+public record Prontuario(Paciente paciente, List<ArquivosProntuario> arquivosProntuarioList) {
 }
